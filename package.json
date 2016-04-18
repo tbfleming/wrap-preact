@@ -1,0 +1,17 @@
+{
+  "name": "wrap-preact",
+  "version": "1.0.0",
+  "description": "Wrap preact so it can work with ChiliPeppr",
+  "scripts": {
+    "build": "browserify index.js | uglifyjs > wrap-preact.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbfleming/wrap-preact.git"
+  },
+  "author": "Todd Fleming",
+  "license": "MIT",
+  "devDependencies": {
+    "preact": "^4.7.0"
+  }
+}

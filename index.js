@@ -1,0 +1,1 @@
+window.preact = require('preact');
